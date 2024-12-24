@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('fon.jpg');
+}
+
+.about_us {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    height: 12vw;
+    align-items: center;
+}
+
+.about_us-text {
+    font-size: 1.5vw; /* Уменьшенный шрифт */
+    text-transform: none;
+    position: relative;
+}
+
+.head-block-back {
+    background-color: #d9a7df;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 20px 20px;
+    height: 12vw;
+}
+
+.head-block-white img {
+    width: 30vw;
+    height: 9vw;
+}
+
+.head-block-white {
+    background-color: #ffffffcd;
+    display: flex;
+    justify-content: center;
+    position: unset;
+    margin-left: 50px;
+    width: 32vw;
+    height: 11vw;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.text-head {
+    float: right;
+    margin: none;
+}
+
+.text-head ul {
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #ffffff;
+}
+
+.text-head li {
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
+.text-head li a,
+#text-head li span {
+    display: inline-block;
+    padding: 0em 1em; /* Уменьшенный отступ */
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 60px;
+    color: #000000;
+}
+
+.b {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    height: 50px;
+    border-spacing: 10px 65px;
+    border-radius: 20px;
+}
+
+.b-item {
+    display: table-cell;
+    vertical-align: top;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.b-item-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #a352bc;
+}
+
+.b-item img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.header-wrapper h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#about h2 {
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+#about p {
+    font-size: 30px;
+    color: #000000;
+    font-style: italic;
+}
+
+#products h2 {
+    font-size: 60px;
+}
+
+.cake img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.cake {
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: #eae2eca5;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    font-size: 25px;
+}
+
+.cake h3 {
+    color: #a352bc;
+    font-size: 45px;
+}
+
+.cake p {
+    color: #000000;
+    font-style: italic;
+    position: relative;
+}
+
+.cake-info {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+    font-size: large;
+    position: absolute;
+    bottom: 20px;
+    left: 80%;
+    font-size: 22px;
+}
+
+.order-button {
+    padding: 10px 23px;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #c996e0;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 13px;
+    left: 65%;
+    font-size: 22px;
+}
+
+.order-button:hover {
+    background-color: #6645a0;
+}
+
+footer {
+    border-radius: 20px 20px 0px 0px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* New styles for delivery and celebration sections */
+#delivery h2,
+#celebration h2 {
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+#delivery p,
+#celebration p {
+    font-size: 30px;
+    color: #000000;
+    font-style: italic;
+}

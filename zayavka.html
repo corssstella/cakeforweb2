@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zayavka.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form id="mars-once" action="/apply/" method="POST">
+            <h2>Здравствуйте!</h2>
+            <h5>Благодарим за Ваш выбор. Оставьте заявку, и мы свяжемся с Вами в течение 10 минут в Viber или WhatsApp.</h5>
+            <label>
+              Ваше имя:
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Иван Иванов"
+                required
+                autofocus>
+            </label>
+          
+            <label>
+              Ваш номер телефона:
+              <input
+                type="number"
+                name="number"
+                id="number"
+                placeholder="+79035063999"
+                required>
+            </label>
+            
+            <div class="cen-btn">
+                <button type="submit" class="btn">Отправить</button>
+            </div>
+          </form>
+          
+    </div>
+    <script src="zayavka.js"></script>
+</body>
+</html>
